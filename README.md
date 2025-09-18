@@ -82,26 +82,10 @@ The input is a **CSV file** with the following structure:
 ```
 Telecom-ETL-SSIS/
 │
-├── ETL_Solution/           # SSIS project & packages
-├── SQL_Scripts/            # DWH table creation & reference scripts
-├── Sample_Files/           # Example CSV files
-├── Archive_Files/          # Processed files (post-execution)
+├── full_project/           # SSIS project & packages
+├── final database/            # DWH table creation & reference scripts
 └── README.md               # Project documentation
 ```
-
----
-
-## 🚀 How to Run
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/<your-username>/Telecom-ETL-SSIS.git
-   ```
-2. Open the **SSIS project** in **SQL Server Data Tools (SSDT) / Visual Studio**.  
-3. Configure connection managers (point to your SQL Server & file directories).  
-4. Deploy and execute the SSIS package.  
-5. Monitor database tables (`transactions`, `rejected_records`) and archived files.  
-
----
 
 ## 📖 Notes
 - Make sure reference table for **IMSI → subscriber_id** is preloaded.  
