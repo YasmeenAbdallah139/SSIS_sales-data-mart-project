@@ -1,4 +1,3 @@
-# SSIS_sales-data-mart-project-using-
 # Telecom ETL Project (SSIS)
 
 ## 📌 Project Overview
