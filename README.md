@@ -79,7 +79,7 @@ The input is a **CSV file** with the following structure:
 
 ## 📁 Repository Structure
 ```
-Telecom-ETL-SSIS/
+SSIS_sales-data-mart-project/
 │
 ├── full_project/           # SSIS project & packages
 ├── final database/            # DWH table creation & reference scripts
